@@ -16,6 +16,15 @@ public class AirPlane {
     private ArrayList<Seat> soldSeatssList = new ArrayList<Seat>();
     //private HashMap<Seat,Integer> soldseats = new HashMap<Seat,Integer>();
 
+
+    public ArrayList<Seat> getAllSeatsList() {
+        return allSeatsList;
+    }
+
+    public ArrayList<Seat> getSoldSeatssList() {
+        return soldSeatssList;
+    }
+
     public void ReserveSeat(Seat seat){
       //  allseats.put(seat,1);
         soldSeatssList.add(seat);

@@ -15,7 +15,7 @@ public class Seat {
         return user;
 
     }
-    public void SeatUser(Customer customer){
+    public void SetUser(Customer customer){
         this.user = customer;
     }
     public boolean getReserve(){
